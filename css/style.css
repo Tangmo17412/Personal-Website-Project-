@@ -1,3 +1,40 @@
 body{
-    background-color: #ffa07a;
+    background-image:url(/Personal-Website-Project-/picture/BG.jpg);
+    background-size: cover;
+    margin: 0px
+}
+
+.home_page{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    margin: 0px;
+    height: 850px;
+    width: 1688px;
+}
+
+
+
+#txt_left{
+    font-size: 80px;
+    text-align: center;
+    font-family: monospace;
+    color: white;
+    height: 100px;
+    width: 300px;
+    border: 5px solid white;
+    border-radius: 10px;
+    margin: 350px 0px 500px 0px;
+}
+
+#txt_right{
+    font-size: 80px;
+    text-align: center;
+    font-family: monospace;
+    color: white;
+    height: 100px;
+    width: 300px;
+    border: 5px solid white;
+    border-radius: 10px;
+    margin: 350px 0px 500px 0px;
 }
