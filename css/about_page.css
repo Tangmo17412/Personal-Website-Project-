@@ -1,0 +1,9 @@
+.about_page{
+    display: flex;
+    justify-content: space-between;
+    background-color: cornsilk;
+}
+
+.text_about{
+    margin: 250px 150px 0px 0px;
+}

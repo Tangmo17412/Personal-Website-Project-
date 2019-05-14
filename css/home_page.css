@@ -1,19 +1,22 @@
 body{
-    background-image:url(/Personal-Website-Project-/picture/BG.jpg);
-    background-size: cover;
-    margin: 0px
+    margin: 0px;
 }
+
+#fullpage section{
+    height: 754px;
+    width: 1518px;
+}
+
 
 .home_page{
     display: grid;
     grid-template-columns: auto auto auto;
     justify-content: space-around;
     margin: 0px;
-    height: 850px;
-    width: 1688px;
+    background-image: url(/Personal-Website-Project-/picture/BG1.jpg);
+    background-size: cover;
+    overflow: hidden;
 }
-
-
 
 #txt_left{
     font-size: 80px;
