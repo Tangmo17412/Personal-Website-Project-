@@ -1,0 +1,17 @@
+.freetime_page{
+    display: grid;
+    grid-template-rows: auto auto;
+    background-color: #b5c5c5;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.logo img{
+    height: 100px;
+}
+
+
+
