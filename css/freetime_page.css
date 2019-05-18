@@ -13,5 +13,17 @@
     height: 100px;
 }
 
+.logo button{
+    background-color: rgb(0,0,0,0);
+    border: none;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.logo button:hover{
+    transform: translateY(-8px);
+}
+
 
 
