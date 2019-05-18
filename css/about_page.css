@@ -1,9 +1,14 @@
-.about_page{
+#about_page{
     display: flex;
     justify-content: space-between;
     background-color:#E9B8AC;
 }
 
-.text_about{
+.content_about{
     margin: 250px 150px 0px 0px;
+}
+
+#txt_about{
+    font-family: monospace;
+    font-size: 20px;
 }

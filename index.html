@@ -2,27 +2,33 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <script src="/Personal-Website-Project-/script/page.js"></script>
         <title> Personal Website Project</title>
         <link rel="stylesheet" href='/Personal-Website-Project-/css/home_page.css'>
         <link rel="stylesheet" href='/Personal-Website-Project-/css/about_page.css'>
         <link rel="stylesheet" href='/Personal-Website-Project-/css/freetime_page.css'>
     </head>
     <body>
+        <div id="navbar">
+            <a href="#home_page">Home</a>
+            <a href="#about_page">About</a>
+            <a href="#freetime_page">Freetime</a>
+        </div>
         <main id="fullpage">
-            <section class="home_page">
+            <section id="home_page">
                 <P id="txt_left">Website</P>
                 <img src="./picture/01.png" width="850px" height="850px">
                 <P id="txt_right">Personal</P>
             </section>
-            <section class="about_page">
+            <section id="about_page">
                 <img src="/Personal-Website-Project-/picture/2.png" width="750px">
-                <div class="text_about">
+                <div class="content_about">
                     <h1 id="head_about"><img src="/Personal-Website-Project-/picture/logo.png"></h1>
-                    <p> JIRAPAT PIMJAN <br>Id Student 59030144 <br> I'm TangMo <br> I'm Study 
+                    <p id=txt_about> JIRAPAT PIMJAN <br>Id Student 59030144 <br> I'm TangMo <br> I'm Study 
                         King Mongkut's Institute of Technology Ladkrabang </p>
                 </div>
             </section>
-            <section class="freetime_page">
+            <section id="freetime_page">
                 <canvas id ="myClock" height="600" width="600">
                     Your browser doesn't support JavaScript or canvas
                 </canvas>

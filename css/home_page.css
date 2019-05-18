@@ -2,16 +2,43 @@ body{
     margin: 0px;
 }
 
+#navbar {
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+  
+#navbar a {
+    float: left;
+    display: block;
+    font-family: monospace;
+    color: #ffffff;
+    text-align: center;
+    padding: 18px;
+    text-decoration: none;
+    font-size: 18px;
+}
+  
+#navbar a:hover {
+    background-color: rgb(172, 51, 51);
+    color: rgb(255, 255, 255);
+}
+
 #fullpage section{
     height: 754px;
     width: 1518px;
 }
 
 
-.home_page{
+#home_page{
     display: grid;
     grid-template-columns: auto auto auto;
     justify-content: space-around;
+    grid-gap: 0px;
     margin: 0px;
     background-image: url(/Personal-Website-Project-/picture/BG1.jpg);
     background-size: cover;
@@ -19,25 +46,23 @@ body{
 }
 
 #txt_left{
-    font-size: 80px;
+    font-size: 60px;
     text-align: center;
     font-family: monospace;
     color: white;
     height: 100px;
     width: 300px;
-    border: 5px solid white;
-    border-radius: 10px;
-    margin: 350px 0px 500px 0px;
+    border: none;
+    margin: 350px 0px 500px 20px;
 }
 
 #txt_right{
-    font-size: 80px;
+    font-size: 60px;
     text-align: center;
     font-family: monospace;
     color: white;
     height: 100px;
     width: 300px;
-    border: 5px solid white;
-    border-radius: 10px;
-    margin: 350px 0px 500px 0px;
+    border: none;
+    margin: 350px 20px 500px 0px;
 }

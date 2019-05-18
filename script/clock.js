@@ -115,7 +115,7 @@
         drawHand(cX,cY,endX,endY);
     }
     
-    function drawClockBackground() {
+    /*function drawClockBackground() {
         var correction = 1 / 300,
             shiftUnit = 1 / 170,
             shiftFactor = 1/ 30,
@@ -133,9 +133,9 @@
         }
         drawLittleCircle(cX, cY);
   
-    }
+    }*/
 
-    function drawClockAnother() {
+    function drawClockBackground() {
         var grad;
             canvasContext.beginPath();
             canvasContext.arc(cX, cY, radius, 0, 2*Math.PI);
@@ -146,7 +146,7 @@
             grad.addColorStop(0.5, 'pink');
             grad.addColorStop(1, '#333');
             canvasContext.strokeStyle = grad;
-            canvasContext.lineWidth = radius*0.1;
+            canvasContext.lineWidth = radius*0.07;
             canvasContext.stroke();
             canvasContext.beginPath();
             canvasContext.arc(cX, cY, radius*0.08, 0, 2*Math.PI);
