@@ -1,5 +1,33 @@
-body{
+@font-face {
+    font-family: myFirstFont;
+    src: url(/Personal-Website-Project-/font/FC\ Knomphing\ Bold\ Italic.otf);
+}
+html{scroll-behavior: smooth;}
+body{margin: 0px;}
+
+#page_over {
+    display: grid;
+    grid-template-rows: auto auto;
+    background-color:darkcyan;
+    justify-content: center;
+}
+
+#pushdown{
+    transform: rotate(90deg);
+    margin-top: 50px; 
+}
+
+#pushdown :hover{
+    
+}
+
+#txt_over{
     margin: 0px;
+    font-size: 50px;
+    text-align: center;
+    line-height: 750px;
+    font-family: myFirstFont;
+    color: #ffffff;
 }
 
 #navbar {
@@ -40,7 +68,7 @@ body{
     justify-content: space-around;
     grid-gap: 0px;
     margin: 0px;
-    background-image: url(/Personal-Website-Project-/picture/BG1.jpg);
+    background-color:#dec8cb;
     background-size: cover;
     overflow: hidden;
 }
@@ -65,4 +93,10 @@ body{
     width: 300px;
     border: none;
     margin: 350px 20px 500px 0px;
+}
+
+#pichome{
+    width: 800px;
+    height: 600px;
+    margin-top: 160px;
 }
