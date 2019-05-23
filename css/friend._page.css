@@ -1,0 +1,33 @@
+#friend_page{
+    background-color: #ff92a9;
+}
+
+.contianer_1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card_boss {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    background-color: #ffffff;
+    transition: 0.3s;
+    width: 250px;
+    height: 280px;
+    margin: 20px;
+    border-radius: 2px;
+}
+
+.card_boss img{
+    background-color: #fed361;
+    width: 100%;
+    height: 175px;
+    object-fit: cover;
+    border-radius: 2px;
+}
+  
+.card_boss:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+  

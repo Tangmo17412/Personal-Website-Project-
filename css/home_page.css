@@ -1,6 +1,6 @@
 @font-face {
     font-family: myFirstFont;
-    src: url(/Personal-Website-Project-/font/FC\ Knomphing\ Bold\ Italic.otf);
+    src: url(/Personal-Website-Project-/font/FC\ Lamoon\ Bold\ Italic\ ver\ 1.00.otf);
 }
 html{scroll-behavior: smooth;}
 body{margin: 0px;}
@@ -13,19 +13,18 @@ body{margin: 0px;}
 }
 
 #pushdown{
-    transform: rotate(90deg);
-    margin-top: 50px; 
+    width:100px ;
+    margin: 0px 160px 0px 160px;
 }
 
 #pushdown :hover{
-    
+    transform: translateY(5px);
 }
 
 #txt_over{
     margin: 0px;
     font-size: 50px;
-    text-align: center;
-    line-height: 750px;
+    line-height: 650px;
     font-family: myFirstFont;
     color: #ffffff;
 }
