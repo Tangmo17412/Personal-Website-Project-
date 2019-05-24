@@ -1,20 +1,32 @@
 @font-face {
     font-family: myFirstFont;
-    src: url(/Personal-Website-Project-/font/FC\ Lamoon\ Bold\ Italic\ ver\ 1.00.otf);
+    src: url(/Personal-Website-Project-/font/Bangnampueng.ttf);
+}
+@font-face {
+    font-family: mysecondFont;
+    src: url(/Personal-Website-Project-/font/Waffle\ Regular.otf);
+}
+@font-face {
+    font-family: mythridFont;
+    src: url(/Personal-Website-Project-/font/Circular.ttf);
 }
 html{scroll-behavior: smooth;}
 body{margin: 0px;}
+#fullpage section{
+    height: 754px;
+    width: 100%px;
+}
 
 #page_over {
     display: grid;
     grid-template-rows: auto auto;
-    background-color:darkcyan;
-    justify-content: center;
+    grid-gap: 0px;
+    background-color:#A1BBD0;
 }
 
-#pushdown{
-    width:100px ;
-    margin: 0px 160px 0px 160px;
+#pushdown {
+     display: flex;
+     justify-content: center;
 }
 
 #pushdown :hover{
@@ -22,15 +34,23 @@ body{margin: 0px;}
 }
 
 #txt_over{
-    margin: 0px;
+    margin-top: 68px;
+    margin-bottom: 0px;
     font-size: 50px;
-    line-height: 650px;
+    line-height: 580px;
     font-family: myFirstFont;
     color: #ffffff;
+    font-size: 100px;
+    text-align: center;
+}
+
+#world{
+    height: 70px;
+    width: 70px;
 }
 
 #navbar {
-    background-color: #000000;
+    background-color: #E2B49A;
     position: fixed;
     top: 0;
     width: 100%;
@@ -42,12 +62,12 @@ body{margin: 0px;}
 #navbar a {
     float: left;
     display: block;
-    font-family: monospace;
-    color: #ffffff;
+    font-family:mysecondFont;
+    color:#193446;
     text-align: center;
     padding: 18px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 30px;
 }
   
 #navbar a:hover {
@@ -55,47 +75,41 @@ body{margin: 0px;}
     color: rgb(255, 255, 255);
 }
 
-#fullpage section{
-    height: 754px;
-    width: 1518px;
-}
-
-
 #home_page{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    justify-content: space-around;
-    grid-gap: 0px;
-    margin: 0px;
-    background-color:#dec8cb;
-    background-size: cover;
-    overflow: hidden;
+    display: flex;
+    background-color:#e9c77b;
 }
 
 #txt_left{
-    font-size: 60px;
-    text-align: center;
-    font-family: monospace;
+    font-size: 100px;
+    text-align: left;
+    font-family: myfirstFont;
     color: white;
-    height: 100px;
-    width: 300px;
-    border: none;
-    margin: 350px 0px 500px 20px;
+    margin: 0px;
+    height: 40%;
 }
 
-#txt_right{
-    font-size: 60px;
-    text-align: center;
-    font-family: monospace;
-    color: white;
-    height: 100px;
-    width: 300px;
-    border: none;
-    margin: 350px 20px 500px 0px;
+#about_page{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color:#e9c77b;
+    height: 100%;
 }
 
-#pichome{
-    width: 800px;
-    height: 600px;
-    margin-top: 160px;
+.content_about{
+    margin: auto;
+    height: 100%;
+}
+
+#txt_about{
+    font-family: mythridFont;
+    font-size: 30px;
+}
+#tangmo{
+    width: 30px;
+    height: 30px;
+}
+#profile{
+    width: 40%;
+    height: 60%;
 }
