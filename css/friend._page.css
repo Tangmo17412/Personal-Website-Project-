@@ -1,27 +1,28 @@
-#friend_page{
+#friend_page{ /*-----Pattern flex of friend card page-----*/
     display: flex;
     background-color: #fbc1ae;
     justify-content: space-between;
 }
 
-.mySlide{
-    display: none;
-}
-
-.contianer{
+.contianer_card{ /*-----contianer card friend-----*/
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+.text_name_card{ 
     font-family: myFirstFont;
     font-size: 20px;
     text-align: center;
+    font-weight: bold;
 }
 
-
-.friend_box{
+.friend_box{ /*-----Box All contianer card friend-----*/
+    margin-top: 80px;
     width: 90%;
-    height: 100%;
+    height: 85%;
+    overflow: hidden;
 }
 
 #friend_page button{
@@ -33,31 +34,29 @@
     outline: none; 
 }
 
-.card_boss {
+.card{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
     background-color: #ffffff;
     transition: 0.3s;
     width: 250px;
     height: 280px;
     margin: 20px;
-    border-radius: 5px;
+    border-radius: 8px;
     overflow: hidden;
+    cursor: pointer;
 }
 
-.card_boss img{
+.card img{
     background-color: #F7C966;
     width: 100%;
     height: 175px;
-    object-fit: cover;
     border-radius: 2px;
+    object-fit: cover;
 }
   
-.card_boss:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
-.card_boss img:hover{
+.card img:hover{
     background-color: #7EA6BF;
 }
-.card_boss img:active{
+.card img:active{
     background-color: #fbc1ae;
 }

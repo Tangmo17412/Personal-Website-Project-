@@ -1,4 +1,6 @@
-var slideIndex = 1;
+
+ //------------------------------------Javascript of nav top hide bar
+
 window.onscroll = function() {
   if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 700){
     document.getElementById("navbar").style.top = "0";
@@ -11,10 +13,14 @@ window.onscroll = function() {
 }
  
 
+ //------------------------------------Javascript of slide card friend
+var slideIndex = 1;
 showDivs(slideIndex);
+
 function plusDivs(n) {
   showDivs(slideIndex += n);
 }
+ 
 function showDivs(n) {
   var i;
   var x = document.getElementsByClassName("mySlide");
