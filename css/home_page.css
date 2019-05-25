@@ -3,15 +3,15 @@
 
 @font-face {
     font-family: myFirstFont;
-    src: url(/Personal-Website-Project-/font/Bangnampueng.ttf);
+    src: url(/font/Bangnampueng.ttf);
 }
 @font-face {
     font-family: mysecondFont;
-    src: url(/Personal-Website-Project-/font/Waffle\ Regular.otf);
+    src: url(/font/Waffle\ Regular.otf);
 }
 @font-face {
     font-family: mythridFont;
-    src: url(/Personal-Website-Project-/font/Circular.ttf);
+    src: url(/font/Circular.ttf);
 }
 
 /*------------Main Setting to all page -----------------*/
